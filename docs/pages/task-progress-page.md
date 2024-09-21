@@ -20,5 +20,5 @@ import Layout from './layout.md';
 
 
 ## Links
-- **MyTasksPage**: Navigates to the My Tasks page.
-- **OrderDetailsPage**: Navigates to the Order Details page.
+- [**MyTasksPage**](/): Navigates to the My Tasks page.
+- [**OrderDetailsPage**](/): Navigates to the Order Details page.

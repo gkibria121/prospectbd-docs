@@ -15,8 +15,8 @@ sidebar_label: Forgot Password
 
 
 ## Links
-- **LoginPage**: Navigates to the Login page.
-- **RegisterPage**: Navigates to the Registration page.
+- [**LoginPage**](/docs/pages/login-page.md): Navigates to the Login page.
+- [**RegisterPage**](/docs/pages/register-page.md): Navigates to the Registration page.
 
 import Layout from './layout.md';
 

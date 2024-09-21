@@ -15,7 +15,7 @@ sidebar_label: Payment Processing
 
 
 ## Links
-- **OrderProcessingPage**: Navigates to the Order Processing page.
+- [**OrderProcessingPage**](/): Navigates to the Order Processing page.
 
 import Layout from './layout.md';
 

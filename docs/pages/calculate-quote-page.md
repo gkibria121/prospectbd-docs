@@ -14,8 +14,8 @@ sidebar_label: Calculate Quote
 - **QuoteCalculationComponent**: Allows clients to calculate a quote based on selected services.
 
 ## Links
-- **ServiceDetailsPage**: Navigates to the Service Details page.
-- **QuoteRequestPage**: Navigates to the Quote Request page.
+- [**ServiceDetailsPage**](/): Navigates to the Service Details page.
+- [**QuoteRequestPage**](/): Navigates to the Quote Request page.
 
 import Layout from './layout.md';
 

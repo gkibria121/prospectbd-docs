@@ -16,8 +16,8 @@ sidebar_label: Request Quote
 
 
 ## Links
-- **CalculateQuotePage**: Navigates to the Calculate Quote page.
-- **PaymentDetailsPage**: Navigates to the Payment Details page.
+- [**CalculateQuotePage**](/): Navigates to the Calculate Quote page.
+- [**PaymentDetailsPage**](/): Navigates to the Payment Details page.
 
 import Layout from './layout.md';
 

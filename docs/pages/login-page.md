@@ -14,8 +14,8 @@ sidebar_label: Login
 - **LoginForm**: Allows users to enter their credentials for authentication.
 
 ## Links
-- **RegisterPage**: Navigates to the Registration page.
-- **ForgotPasswordPage**: Navigates to the Forgot Password page.
+- [**RegisterPage**](/docs/pages/register-page.md): Navigates to the Registration page.
+- [**ForgotPasswordPage**](/docs/pages/forgot-password-page.md): Navigates to the Forgot Password page.
 
 import Layout from './layout.md';
 

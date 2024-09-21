@@ -15,8 +15,8 @@ sidebar_label: Service Details
 
 
 ## Links
-- **ServiceCatalogPage**: Navigates to the Service Catalog page.
-- **QuoteRequestPage**: Navigates to the Quote Request page.
+- [**ServiceCatalogPage**](/): Navigates to the Service Catalog page.
+- [**QuoteRequestPage**](/): Navigates to the Quote Request page.
 
 import Layout from './layout.md';
 
