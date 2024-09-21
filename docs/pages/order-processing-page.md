@@ -13,9 +13,11 @@ sidebar_label: Order Processing
 ## Components
 - **OrderProcessingComponent**: Manages order fulfillment and status updates.
 
-## Layout
-- **Header**: Navigation links for managing order workflows.
-- **Footer**: Links to documentation and support resources.
+import Layout from './layout.md';
+
+<Layout />
+
+Footer**: Links to documentation and support resources.
 
 ## Links
 - **TaskManagementPage**: Navigates to the Task Management page.

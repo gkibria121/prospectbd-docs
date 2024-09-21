@@ -16,6 +16,7 @@ sidebar_label: Quote Database
 ## Components
 - **QuoteDatabaseComponent**: Manages quotes generated for clients.
 
-## Layout
-- **Header**: Admin navigation for managing quotes.
-- **Footer**: Links to documentation and resources.
+import Layout from './layout.md';
+
+<Layout />
+

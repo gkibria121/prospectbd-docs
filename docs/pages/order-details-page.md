@@ -13,9 +13,10 @@ sidebar_label: Order Details
 ## Components
 - **OrderDetailsComponent**: Displays information about the client's order.
 
-## Layout
-- **Header**: Navigation links to payment details and my tasks.
-- **Footer**: Links to terms of service and privacy policy.
+import Layout from './layout.md';
+
+<Layout />
+
 
 ## Links
 - **PaymentDetailsPage**: Navigates to the Payment Details page.

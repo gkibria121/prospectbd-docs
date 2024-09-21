@@ -13,9 +13,10 @@ sidebar_label: Service Details
 ## Components
 - **ServiceDetailsComponent**: Displays detailed information about a selected service.
 
-## Layout
-- **Header**: Navigation links to service catalog and quote requests.
-- **Footer**: Links to terms of service and privacy policy.
+import Layout from './layout.md';
+
+<Layout />
+
 
 ## Links
 - **ServiceCatalogPage**: Navigates to the Service Catalog page.

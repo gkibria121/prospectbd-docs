@@ -13,9 +13,11 @@ sidebar_label: Task Management
 ## Components
 - **TaskManagementComponent**: Allows for managing tasks assigned to workers.
 
-## Layout
-- **Header**: Navigation links for overseeing task assignments.
-- **Footer**: Links to documentation and support resources.
+import Layout from './layout.md';
+
+<Layout />
+
+
 
 ## Links
 - **SendNotificationsPage**: Navigates to the Send Notifications page.

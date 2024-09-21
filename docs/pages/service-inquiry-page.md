@@ -13,9 +13,11 @@ sidebar_label: Service Inquiry
 ## Components
 - **ServiceInquiryForm**: Allows guests to submit inquiries about services.
 
-## Layout
-- **Header**: Navigation links to free services and quote requests.
-- **Footer**: Links to terms and conditions.
+import Layout from './layout.md';
+
+<Layout />
+
+
 
 ## Links
 - **FreeServicesPage**: Navigates to the Free Services page.

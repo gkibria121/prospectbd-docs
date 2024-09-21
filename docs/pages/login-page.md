@@ -13,9 +13,10 @@ sidebar_label: Login
 ## Components
 - **LoginForm**: Allows users to enter their credentials for authentication.
 
-## Layout
-- **Header**: Includes navigation links for registration and password recovery.
-- **Footer**: Links to terms of service and privacy policy.
+import Layout from './layout.md';
+
+<Layout />
+
 
 ## Links
 - **RegisterPage**: Navigates to the Registration page.

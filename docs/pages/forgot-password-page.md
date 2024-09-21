@@ -13,9 +13,10 @@ sidebar_label: Forgot Password
 ## Components
 - **ForgetPasswordComponent**: Allows users to request a password reset.
 
-## Layout
-- **Header**: Navigation links to login and registration.
-- **Footer**: Links to terms of service and privacy policy.
+import Layout from './layout.md';
+
+<Layout />
+
 
 ## Links
 - **LoginPage**: Navigates to the Login page.

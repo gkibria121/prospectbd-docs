@@ -13,9 +13,10 @@ sidebar_label: My Tasks
 ## Components
 - **TaskListComponent**: Displays a list of tasks assigned to the client.
 
-## Layout
-- **Header**: Navigation links to task progress and order details.
-- **Footer**: Links to terms of service and privacy policy.
+import Layout from './layout.md';
+
+<Layout />
+
 
 ## Links
 - **TaskProgressPage**: Navigates to the Task Progress page.

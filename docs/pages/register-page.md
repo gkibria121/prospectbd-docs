@@ -13,9 +13,11 @@ sidebar_label: Register
 ## Components
 - **RegistrationForm**: Allows new users to create an account.
 
-## Layout
-- **Header**: Navigation links to login and password recovery.
-- **Footer**: Links to terms of service and privacy policy.
+import Layout from './layout.md';
+
+<Layout />
+
+
 
 ## Links
 - **LoginPage**: Navigates to the Login page.

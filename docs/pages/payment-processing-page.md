@@ -13,9 +13,11 @@ sidebar_label: Payment Processing
 ## Components
 - **PaymentProcessingComponent**: Handles payment transactions.
 
-## Layout
-- **Header**: Navigation links for managing payment workflows.
-- **Footer**: Links to documentation and support resources.
+import Layout from './layout.md';
+
+<Layout />
+
+
 
 ## Links
 - **OrderProcessingPage**: Navigates to the Order Processing page.

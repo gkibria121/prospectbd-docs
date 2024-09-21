@@ -13,9 +13,11 @@ sidebar_label: Quote Request
 ## Components
 - **QuoteRequestForm**: Allows guests to request a quote for services.
 
-## Layout
-- **Header**: Navigation links to free services and service inquiries.
-- **Footer**: Links to terms and conditions.
+import Layout from './layout.md';
+
+<Layout />
+
+
 
 ## Links
 - **FreeServicesPage**: Navigates to the Free Services page.

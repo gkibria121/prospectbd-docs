@@ -13,9 +13,11 @@ sidebar_label: Task Progress
 ## Components
 - **TaskProgressComponent**: Displays progress updates for assigned tasks.
 
-## Layout
-- **Header**: Navigation links to my tasks and order details.
-- **Footer**: Links to terms of service and privacy policy.
+import Layout from './layout.md';
+
+<Layout />
+
+
 
 ## Links
 - **MyTasksPage**: Navigates to the My Tasks page.

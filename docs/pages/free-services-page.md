@@ -13,9 +13,10 @@ sidebar_label: Free Services
 ## Components
 - **FreeServiceList**: Displays a list of free services available to guests.
 
-## Layout
-- **Header**: Includes navigation links to login and registration.
-- **Footer**: Links to terms and conditions.
+import Layout from './layout.md';
+
+<Layout />
+
 
 ## Links
 - **ServiceInquiryPage**: Navigates to the Service Inquiry page.

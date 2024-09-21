@@ -16,6 +16,7 @@ sidebar_label: Service Database
 ## Components
 - **ServiceDatabaseComponent**: Manages service records and information.
 
-## Layout
-- **Header**: Admin navigation for managing service listings.
-- **Footer**: Links to documentation and resources.
+import Layout from './layout.md';
+
+<Layout />
+

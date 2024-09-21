@@ -16,6 +16,8 @@ sidebar_label: Usage Database
 ## Components
 - **UsageDatabaseComponent**: Manages records of system usage and analytics.
 
-## Layout
-- **Header**: Admin navigation for managing usage records.
-- **Footer**: Links to documentation and resources.
+import Layout from './layout.md';
+
+<Layout />
+
+

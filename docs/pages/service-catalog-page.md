@@ -13,9 +13,11 @@ sidebar_label: Service Catalog
 ## Components
 - **CatalogBrowsingComponent**: Displays a catalog of available services.
 
-## Layout
-- **Header**: Navigation links to service filtering and quote requests.
-- **Footer**: Links to terms of service and privacy policy.
+import Layout from './layout.md';
+
+<Layout />
+
+
 
 ## Links
 - **FilterServicesPage**: Navigates to the Service Filtering page.

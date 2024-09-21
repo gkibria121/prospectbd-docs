@@ -13,9 +13,9 @@ sidebar_label: Calculate Quote
 ## Components
 - **QuoteCalculationComponent**: Allows clients to calculate a quote based on selected services.
 
-## Layout
-- **Header**: Navigation links to service catalog and request quote.
-- **Footer**: Links to terms of service and privacy policy.
+import Layout from './layout.md';
+
+<Layout />
 
 ## Links
 - **ServiceDetailsPage**: Navigates to the Service Details page.
