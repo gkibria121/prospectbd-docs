@@ -4,12 +4,19 @@ title: Service Inquiry
 description: This component handles service inquiries.
 ---
 
-## Fields
+ 
 
-| Field Name       | Type    | Description                 |
-|------------------|---------|-----------------------------|
-| ServiceID        | Integer | ID of the inquired service   |
-| Inquiry Message  | Text    | Message or question related to the service |
+- **Payload**:
+  - **ServiceID**: Service ID
+    - *Type*: Integer
+  - **Inquiry Payload**: Inquiry Payload
+    - *Type*: JSON
+
+- **Response**:
+  - **ServiceID**: Service ID
+    - *Type*: Integer
+  - **Inquiry Result**: Inquiry Result
+    - *Type*: JSON
 
 ## Actions
 

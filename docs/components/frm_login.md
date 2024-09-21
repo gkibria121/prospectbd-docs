@@ -5,11 +5,11 @@ description: This component handles the login functionality.
 ---
 
 ## Fields
-
-| Field Name | Type     | Description             |
-|------------|----------|-------------------------|
-| Name       | Text     | User's login name        |
-| Password   | Password | User's password          |
+- **Input**: 
+  - **Name**: Name
+    - *Type*: Text
+  - **Password**: Password
+    - *Type*: Password
 
 ## Actions
 

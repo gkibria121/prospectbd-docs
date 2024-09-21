@@ -6,11 +6,14 @@ description: This component handles the forget password functionality.
 
 ## Fields
 
-| Field Name       | Type     | Description                      |
-|------------------|----------|----------------------------------|
-| UserName         | Text     | Username or email for the account |
-| New Password     | Password | New password for the account     |
-| Confirm Password | Password | Confirm the new password         |
+ 
+- **Input**:
+  - **UserName**: UserName
+    - *Type*: Text
+  - **New Password**: New Password
+    - *Type*: Password
+  - **Confirm Password**: Confirm Password
+    - *Type*: Password
 
 ## Actions
 

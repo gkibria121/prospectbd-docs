@@ -5,11 +5,14 @@ description: This component allows users to request quotes for services.
 ---
 
 ## Fields
-
-| Field Name     | Type    | Description                        |
-|----------------|---------|------------------------------------|
-| ServiceID      | Integer | ID of the service requested        |
-| Estimated Cost | Decimal | Estimated cost for the requested service |
+ 
+- **Param**:
+  - **ServiceID**: Service ID
+    - *Type*: Integer
+  - **Estimated Cost**: Estimated Cost
+    - *Type*: Decimal
+  - **Guest ID**:  Guest ID
+    - *Type*: UID
 
 ## Actions
 

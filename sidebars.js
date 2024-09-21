@@ -34,12 +34,32 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Employee Authentication",
+          items: ["pages/login-page", "pages/register-page", "pages/forgot-password-page"],
+        },
+        {
+          type: "category",
           label: "Guest User",
           items: ["pages/free-services-page", "pages/service-inquiry-page", "pages/quote-request-page"],
         },
         {
           type: "category",
           label: "Client User",
+          items: [
+            "pages/service-catalog-page",
+            "pages/filter-services-page",
+            "pages/service-details-page",
+            "pages/calculate-quote-page",
+            "pages/request-quote-page",
+            "pages/payment-details-page",
+            "pages/order-details-page",
+            "pages/my-tasks-page",
+            "pages/task-progress-page",
+          ],
+        },
+        {
+          type: "category",
+          label: "Employee User",
           items: [
             "pages/service-catalog-page",
             "pages/filter-services-page",

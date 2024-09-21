@@ -14,3 +14,6 @@ description: This component displays a list of free services.
 ## Actions
 
 - **View Services**: Displays the list of free services.
+
+## Links
+- [**ServiceDetailsComponent**](/docs/pages/service-details-page.md): Navigates to the Service Inquiry page.
