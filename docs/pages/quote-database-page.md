@@ -14,7 +14,7 @@ sidebar_label: Quote Database
 - Description of the structure and purpose of the Quote Database.
 
 ## Components
-- **QuoteDatabaseComponent**: Manages quotes generated for clients.
+- [**QuoteDatabaseComponent**](/docs/components/quote_database.md): Manages quotes generated for clients.
 
 import Layout from './layout.md';
 

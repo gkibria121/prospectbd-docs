@@ -11,7 +11,7 @@ sidebar_label: Register
 *Title:* User Registration
 
 ## Components
-- **RegistrationForm**: Allows new users to create an account.
+- [**RegistrationForm**](/docs/components/frm_register.md): Allows new users to create an account.
 
 
 ## Links

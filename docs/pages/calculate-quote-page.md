@@ -11,7 +11,7 @@ sidebar_label: Calculate Quote
 *Title:* Calculate a Quote
 
 ## Components
-- **QuoteCalculationComponent**: Allows clients to calculate a quote based on selected services.
+- [**QuoteCalculationComponent**](/docs/components/quote_calculation.md): Allows clients to calculate a quote based on selected services.
 
 ## Links
 - [**ServiceDetailsPage**](/docs/pages/service-details-page): Navigates to the Service Details page.

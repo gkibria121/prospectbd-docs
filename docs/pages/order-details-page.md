@@ -11,7 +11,7 @@ sidebar_label: Order Details
 *Title:* Order Details
 
 ## Components
-- **OrderDetailsComponent**: Displays information about the client's order.
+- [**OrderDetailsComponent**](/docs/components/order_details.md): Displays information about the client's order.
 
 ## Links
 - [**PaymentDetailsPage**](/docs/pages/payment-details-page): Navigates to the Payment Details page.

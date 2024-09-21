@@ -11,7 +11,7 @@ sidebar_label: Payment Details
 *Title:* Payment Details
 
 ## Components
-- **PaymentDetailsComponent**: Allows clients to enter payment information.
+- [**PaymentDetailsComponent**](/docs/components/payment_details.md): Allows clients to enter payment information.
 
 
 ## Links

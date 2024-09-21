@@ -11,7 +11,7 @@ sidebar_label: Quote Request
 *Title:* Request a Quote
 
 ## Components
-- **QuoteRequestForm**: Allows guests to request a quote for services.
+- [**QuoteRequestForm**](/docs/components/frm_quote_request.md): Allows guests to request a quote for services.
 
 
 ## Links

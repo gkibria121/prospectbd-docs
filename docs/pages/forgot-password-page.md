@@ -11,7 +11,7 @@ sidebar_label: Forgot Password
 *Title:* Password Recovery
 
 ## Components
-- **ForgetPasswordComponent**: Allows users to request a password reset.
+- [**ForgetPasswordComponent**](/docs/components/frm_forget_password.md): Allows users to request a password reset.
 
 
 ## Links

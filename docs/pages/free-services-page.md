@@ -11,7 +11,7 @@ sidebar_label: Free Services
 *Title:* Available Free Services
 
 ## Components
-- **FreeServiceList**: Displays a list of free services available to guests.
+- [**FreeServiceList**](/docs/components/free_service_list.md): Displays a list of free services available to guests.
 
 ## Links
 - [**ServiceInquiryPage**](/docs/pages/service-inquiry-page): Navigates to the Service Inquiry page.

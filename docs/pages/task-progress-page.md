@@ -11,7 +11,7 @@ sidebar_label: Task Progress
 *Title:* Task Progress
 
 ## Components
-- **TaskProgressComponent**: Displays progress updates for assigned tasks.
+- [**TaskProgressComponent**](/docs/components/task_progress.md): Displays progress updates for assigned tasks.
 
 import Layout from './layout.md';
 

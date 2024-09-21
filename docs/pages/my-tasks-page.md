@@ -11,7 +11,7 @@ sidebar_label: My Tasks
 *Title:* My Tasks
 
 ## Components
-- **TaskListComponent**: Displays a list of tasks assigned to the client.
+- [**TaskListComponent**](/docs/components/task_list.md): Displays a list of tasks assigned to the client.
 
 
 ## Links

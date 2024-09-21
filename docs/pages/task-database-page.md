@@ -13,7 +13,7 @@ sidebar_label: Task Database
 - Description of the structure and purpose of the Task Database.
 
 ## Components
-- **TaskDatabaseComponent**: Manages task records and updates.
+- [**TaskDatabaseComponent**](/docs/components/task_db.md): Manages task records and updates.
 
 import Layout from './layout.md';
 

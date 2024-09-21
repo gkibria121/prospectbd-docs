@@ -11,7 +11,7 @@ sidebar_label: Service Inquiry
 *Title:* Service Inquiry
 
 ## Components
-- **ServiceInquiryForm**: Allows guests to submit inquiries about services.
+- [**ServiceInquiryForm**](/docs/components/frm_service_inquiry.md): Allows guests to submit inquiries about services.
 
 
 ## Links

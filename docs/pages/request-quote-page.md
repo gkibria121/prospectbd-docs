@@ -11,7 +11,7 @@ sidebar_label: Request Quote
 *Title:* Request a Quote
 
 ## Components
-- **QuoteRequestForm**: Allows clients to submit a quote request.
+- [**QuoteRequestForm**](/docs/components/frm_quote_request.md): Allows clients to submit a quote request.
 
 
 

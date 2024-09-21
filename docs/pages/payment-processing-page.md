@@ -11,7 +11,7 @@ sidebar_label: Payment Processing
 *Title:* Payment Processing
 
 ## Components
-- **PaymentProcessingComponent**: Handles payment transactions.
+- [**PaymentProcessingComponent**](/docs/components/payment_processing.md): Handles payment transactions.
 
 
 ## Links

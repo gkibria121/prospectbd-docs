@@ -11,7 +11,7 @@ sidebar_label: Filter Services
 *Title:* Filter Services
 
 ## Components
-- **ServiceFilteringComponent**: Allows clients to filter available services.
+- [**ServiceFilteringComponent**](/docs/components/service_filtering.md): Allows clients to filter available services.
 
 ## Links
 - [**ServiceCatalogPage**](/docs/pages/service-catalog-page): Navigates to the Service Catalog page.

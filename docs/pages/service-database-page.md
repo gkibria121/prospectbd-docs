@@ -14,7 +14,7 @@ sidebar_label: Service Database
 - Description of the structure and purpose of the Service Database.
 
 ## Components
-- **ServiceDatabaseComponent**: Manages service records and information.
+- [**ServiceDatabaseComponent**](/docs/components/service_management.md): Manages service records and information.
 
 import Layout from './layout.md';
 

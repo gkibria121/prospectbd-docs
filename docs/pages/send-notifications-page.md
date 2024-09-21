@@ -11,7 +11,7 @@ sidebar_label: Send Notifications
 *Title:* Send Notifications
 
 ## Components
-- **NotificationSystemComponent**: Sends notifications regarding tasks to workers.
+- [**NotificationSystemComponent**](/docs/components/notification_system.md): Sends notifications regarding tasks to workers.
 
 
 ## Links

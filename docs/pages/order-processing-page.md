@@ -11,7 +11,7 @@ sidebar_label: Order Processing
 *Title:* Order Processing
 
 ## Components
-- **OrderProcessingComponent**: Manages order fulfillment and status updates.
+- [**OrderProcessingComponent**](/docs/components/order_processing.md): Manages order fulfillment and status updates.
 
 import Layout from './layout.md';
 

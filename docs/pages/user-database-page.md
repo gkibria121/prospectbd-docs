@@ -14,7 +14,7 @@ sidebar_label: User Database
 - Description of the structure and purpose of the User Database.
 
 ## Components
-- **UserDatabaseComponent**: Manages user records and authentication details.
+- [**UserDatabaseComponent**](/docs/components/user_database.md): Manages user records and authentication details.
 
 import Layout from './layout.md';
 

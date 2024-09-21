@@ -11,7 +11,7 @@ sidebar_label: Service Details
 *Title:* Service Details
 
 ## Components
-- **ServiceDetailsComponent**: Displays detailed information about a selected service.
+- [**ServiceDetailsComponent**](/docs/components/service_details.md): Displays detailed information about a selected service.
 
 
 ## Links

@@ -11,7 +11,7 @@ sidebar_label: Service Catalog
 *Title:* Service Catalog
 
 ## Components
-- **CatalogBrowsingComponent**: Displays a catalog of available services.
+- [**CatalogBrowsingComponent**](/docs/components/catalog_browsing.md): Displays a catalog of available services.
 
 ## Links
 - [**FilterServicesPage**](/docs/pages/filter-services-page): Navigates to the Service Filtering page.

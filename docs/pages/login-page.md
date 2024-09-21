@@ -11,7 +11,7 @@ sidebar_label: Login
 *Title:* User Login
 
 ## Components
-- **LoginForm**: Allows users to enter their credentials for authentication.
+- [**LoginForm**](/docs/components/frm_login.md): Allows users to enter their credentials for authentication.
 
 ## Links
 - [**RegisterPage**](/docs/pages/register-page.md): Navigates to the Registration page.

@@ -11,7 +11,7 @@ sidebar_label: Task Management
 *Title:* Task Management
 
 ## Components
-- **TaskManagementComponent**: Allows for managing tasks assigned to workers.
+- [**TaskManagementComponent**](/docs/components/task_management.md): Allows for managing tasks assigned to workers.
 
 
 
