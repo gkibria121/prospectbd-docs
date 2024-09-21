@@ -13,11 +13,11 @@ sidebar_label: Send Notifications
 ## Components
 - **NotificationSystemComponent**: Sends notifications regarding tasks to workers.
 
+
+## Links
+- **TaskManagementPage**: Navigates to the Task Management page.
+
 import Layout from './layout.md';
 
 <Layout />
 
-
-
-## Links
-- **TaskManagementPage**: Navigates to the Task Management page.

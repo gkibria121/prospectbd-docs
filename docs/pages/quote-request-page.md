@@ -13,12 +13,13 @@ sidebar_label: Quote Request
 ## Components
 - **QuoteRequestForm**: Allows guests to request a quote for services.
 
+
+## Links
+- **FreeServicesPage**: Navigates to the Free Services page.
+- **ServiceInquiryPage**: Navigates to the Service Inquiry page.
+
 import Layout from './layout.md';
 
 <Layout />
 
 
-
-## Links
-- **FreeServicesPage**: Navigates to the Free Services page.
-- **ServiceInquiryPage**: Navigates to the Service Inquiry page.

@@ -13,10 +13,11 @@ sidebar_label: Manage Services
 ## Components
 - **ServiceManagementComponent**: Allows super admins to manage service listings.
 
+## Links
+- **SuperAdminDashboardPage**: Navigates to the Super Admin Dashboard.
+
 import Layout from './layout.md';
 
 <Layout />
 
 
-## Links
-- **SuperAdminDashboardPage**: Navigates to the Super Admin Dashboard.

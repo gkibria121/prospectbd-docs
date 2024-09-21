@@ -13,12 +13,13 @@ sidebar_label: Request Quote
 ## Components
 - **QuoteRequestForm**: Allows clients to submit a quote request.
 
-import Layout from './layout.md';
-
-<Layout />
-
 
 
 ## Links
 - **CalculateQuotePage**: Navigates to the Calculate Quote page.
 - **PaymentDetailsPage**: Navigates to the Payment Details page.
+
+import Layout from './layout.md';
+
+<Layout />
+

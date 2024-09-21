@@ -13,11 +13,12 @@ sidebar_label: Free Services
 ## Components
 - **FreeServiceList**: Displays a list of free services available to guests.
 
+## Links
+- **ServiceInquiryPage**: Navigates to the Service Inquiry page.
+- **QuoteRequestPage**: Navigates to the Quote Request page.
+
 import Layout from './layout.md';
 
 <Layout />
 
 
-## Links
-- **ServiceInquiryPage**: Navigates to the Service Inquiry page.
-- **QuoteRequestPage**: Navigates to the Quote Request page.

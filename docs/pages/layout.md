@@ -1,12 +1,4 @@
----
-id: layout
-title: Page Layout
-sidebar_label: Layout
----
-
-# Page Layout
-
-## Common Layout
+## Layout
 
 This layout includes a header and footer that can be used across multiple pages.
 

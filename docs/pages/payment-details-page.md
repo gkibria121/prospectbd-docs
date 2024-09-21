@@ -13,12 +13,12 @@ sidebar_label: Payment Details
 ## Components
 - **PaymentDetailsComponent**: Allows clients to enter payment information.
 
+
+## Links
+- **OrderDetailsPage**: Navigates to the Order Details page.
+- **MyTasksPage**: Navigates to the My Tasks page.
  
 import Layout from './layout.md';
 
 <Layout />
 
-
-## Links
-- **OrderDetailsPage**: Navigates to the Order Details page.
-- **MyTasksPage**: Navigates to the My Tasks page.

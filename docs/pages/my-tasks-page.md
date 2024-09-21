@@ -13,11 +13,12 @@ sidebar_label: My Tasks
 ## Components
 - **TaskListComponent**: Displays a list of tasks assigned to the client.
 
-import Layout from './layout.md';
-
-<Layout />
-
 
 ## Links
 - **TaskProgressPage**: Navigates to the Task Progress page.
 - **OrderDetailsPage**: Navigates to the Order Details page.
+
+import Layout from './layout.md';
+
+<Layout />
+

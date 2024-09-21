@@ -13,10 +13,12 @@ sidebar_label: Filter Services
 ## Components
 - **ServiceFilteringComponent**: Allows clients to filter available services.
 
+## Links
+- **ServiceCatalogPage**: Navigates to the Service Catalog page.
+- **QuoteRequestPage**: Navigates to the Quote Request page.
+
+
 import Layout from './layout.md';
 
 <Layout />
 
-## Links
-- **ServiceCatalogPage**: Navigates to the Service Catalog page.
-- **QuoteRequestPage**: Navigates to the Quote Request page.

@@ -15,9 +15,10 @@ sidebar_label: Order Processing
 
 import Layout from './layout.md';
 
+## Links
+- **TaskManagementPage**: Navigates to the Task Management page.
+
 <Layout />
 
 Footer**: Links to documentation and support resources.
 
-## Links
-- **TaskManagementPage**: Navigates to the Task Management page.

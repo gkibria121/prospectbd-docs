@@ -13,12 +13,13 @@ sidebar_label: Register
 ## Components
 - **RegistrationForm**: Allows new users to create an account.
 
+
+## Links
+- **LoginPage**: Navigates to the Login page.
+- **ForgotPasswordPage**: Navigates to the Forgot Password page.
+
 import Layout from './layout.md';
 
 <Layout />
 
 
-
-## Links
-- **LoginPage**: Navigates to the Login page.
-- **ForgotPasswordPage**: Navigates to the Forgot Password page.
