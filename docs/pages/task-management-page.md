@@ -16,7 +16,7 @@ sidebar_label: Task Management
 
 
 ## Links
-- [**SendNotificationsPage**](/): Navigates to the Send Notifications page.
+- [**SendNotificationsPage**](/docs/pages/send-notifications-page): Navigates to the Send Notifications page.
 
 import Layout from './layout.md';
 

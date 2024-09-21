@@ -15,8 +15,8 @@ sidebar_label: Quote Request
 
 
 ## Links
-- [**FreeServicesPage**](/): Navigates to the Free Services page.
-- [**ServiceInquiryPage**](/): Navigates to the Service Inquiry page.
+- [**FreeServicesPage**](/docs/pages/free-services-page): Navigates to the Free Services page.
+- [**ServiceInquiryPage**](/docs/pages/service-inquiry-page): Navigates to the Service Inquiry page.
 
 import Layout from './layout.md';
 

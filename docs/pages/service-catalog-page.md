@@ -14,8 +14,8 @@ sidebar_label: Service Catalog
 - **CatalogBrowsingComponent**: Displays a catalog of available services.
 
 ## Links
-- [**FilterServicesPage**](/): Navigates to the Service Filtering page.
-- [**QuoteRequestPage**](/): Navigates to the Quote Request page.
+- [**FilterServicesPage**](/docs/pages/filter-services-page): Navigates to the Service Filtering page.
+- [**QuoteRequestPage**](/docs/pages/request-quote-page): Navigates to the Quote Request page.
 
 import Layout from './layout.md';
 

@@ -15,8 +15,8 @@ sidebar_label: My Tasks
 
 
 ## Links
-- [**MyTasksPage**](/): Navigates to the Task Progress page.
-- [**OrderDetailsPage**](/): Navigates to the Order Details page.
+- [**TaskProgress**](/docs/pages/task-progress-page): Navigates to the Task Progress page.
+- [**OrderDetailsPage**](/docs/pages/order-details-page): Navigates to the Order Details page.
 
 import Layout from './layout.md';
 

@@ -14,8 +14,8 @@ sidebar_label: Order Details
 - **OrderDetailsComponent**: Displays information about the client's order.
 
 ## Links
-- [**PaymentDetailsPage**](/): Navigates to the Payment Details page.
-- [**MyTasksPage**](/): Navigates to the My Tasks page.
+- [**PaymentDetailsPage**](/docs/pages/payment-details-page): Navigates to the Payment Details page.
+- [**MyTasksPage**](/docs/pages/my-tasks-page): Navigates to the My Tasks page.
 
 import Layout from './layout.md';
 
