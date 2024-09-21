@@ -1,0 +1,245 @@
+this is a convention for my documentation 
+# Forms Documentation
+
+## Login Form
+
+*Form Identifier:* frm_login
+
+*Title:* LogIn
+
+### Fields
+- *Input*: 
+  - *Name*: Name
+    - *Type*: Text
+  - *Password*: Password
+    - *Type*: Password
+
+### Actions
+- *Command*: LogIn
+
+### Links
+- *Register*: Navigates to the [Register Form](#register-form)
+
+---
+
+## Forget Password Form
+
+*Form Identifier:* frm_forget_password
+
+*Title:* Forget Password
+
+### Fields
+- *Display*:
+  - *UserName*: 
+    - *Type*: Text
+- *Input*:
+  - *New Password*: 
+    - *Type*: Password
+  - *Confirm Password*:
+    - *Type*: Password
+
+### Actions
+- *Command*: Submit
+
+---
+
+## Employee Entry SubForm
+
+*Title:* Employee Entry
+
+### Fields
+- *Input*:
+  - *FirstName*:
+    - *Type*: Text
+  - *LastName*:
+    - *Type*: Text
+  - *DateOfBirth*:
+    - *Type*: Date
+    - *Selection*: Calendar
+  - *Gender*:
+    - *Type*: Enum
+    - *Options*: Male, Female
+  - *Nationality*:
+    - *Type*: Integer
+    - *Selection*: List
+    - *Options*: CountryID, CountryName
+  - *Religion*:
+    - *Type*: Enum
+    - *Options*: Muslim, Hindu, Buddhist, Christian, Other
+
+### Actions
+- *Command*: Submit
+
+---
+
+## Employee List SubForm
+
+*Title:* Employee List
+
+### Components
+- *ListView*: 
+  - *Identifier*: list1
+  - *Fields*: EmployeeId, FirstName, LastName, Gender, Nationality
+
+### Actions
+- *Command*: Show or Hide List
+
+---
+
+## Employee Form
+
+*Title:* Employee
+
+### SubForms
+- *Employee List*: 
+  - *Identifier*: form1
+- *Employee Entry*:
+  - *Identifier*: form2
+
+### Links
+- *List*: Navigates to the [Employee List Form](#employee-list-form)
+
+
+this is the dfd of my project
+flowchart TD 
+    Guest["Guest"]
+    EmailService(("Email Service"))
+    LoginProcess(("2.1 Login Process"))
+    RegistrationProcess(("2.2 Registration Process"))
+    ForgotPasswordProcess(("2.5 Forgot Password Process"))
+    CredentialVerification(("2.3 Credential Verification"))
+    UserDB[(User Database)]
+    SessionManagement(("2.4 Session Management"))
+    Client["Client"]
+
+    Guest -->|"1.Login credentials"| LoginProcess
+    Guest <-->|"2.Registration info<br>3.Registration success response"| RegistrationProcess
+    Guest -->|"7.Account email"| ForgotPasswordProcess
+    Guest -->|"10.New Password"| ForgotPasswordProcess
+    LoginProcess -->|"2.User credentials"| CredentialVerification
+    RegistrationProcess -->|"5.New user data"| UserDB 
+    CredentialVerification <-.->|"5.Query user data<br>6.Query result"| UserDB
+    CredentialVerification -->|"3.Valid user"| SessionManagement
+    SessionManagement -->|"4.Session token"| Client
+    ForgotPasswordProcess -.->|"9.Verify user"| UserDB
+    ForgotPasswordProcess -->|"8.Password reset link"| EmailService      
+    EmailService -->|"9.Verified user data"| Guest                         
+    ForgotPasswordProcess -->|"11.Updated password"| UserDB
+
+    classDef entity fill:#f9f,stroke:#333,stroke-width:2px
+    classDef process fill:#bbf,stroke:#333,stroke-width:2px
+    classDef datastore fill:#fff,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
+
+    class Guest,Client entity
+    class LoginProcess,RegistrationProcess,ForgotPasswordProcess,CredentialVerification,SessionManagement,EmailService process
+    class UserDB datastore
+ 
+    CatalogBrowsing(("3.1 Catalog Browsing"))  -- 1.Service List -->  Client["Client"]
+    ServiceDB["Service Database"] -. Retrieve service list .-> CatalogBrowsing
+    Client -- 2.Apply filters<br>5.Filtered results --> ServiceFiltering(("3.2 Service Filtering"))
+    ServiceFiltering <-. "3.Filter services<br>4.Filtered services" .-> ServiceDB
+    Client -- 4.Selected Service -->   QuoteCalculation(("3.4 Quote Calculation")) 
+    QuoteCalculation <-. "5.Pricing info" .-> ServiceDB
+    QuoteCalculation -- "6.Generated quote" --> Client
+    QuoteCalculation -. "7.Generated quote" .-> QuoteDB["Quote Database"]
+    
+    SuperAdmin["Super Admin"] -- "8.Manage Services" --> ServiceManagement(("3.5 Service Management"))
+    ServiceManagement <-. "9.CRUD Operations" .-> ServiceDB
+    Client:::entity
+    SuperAdmin:::entity
+    ServiceDB:::datastore
+    QuoteDB:::datastore
+    CatalogBrowsing:::process
+    ServiceFiltering:::process 
+    QuoteCalculation:::process
+    ServiceManagement:::process
+    classDef entity fill:#f9f,stroke:#333,stroke-width:2px
+    classDef process fill:#bbf,stroke:#333,stroke-width:2px,circle
+    classDef datastore fill:#fff,stroke:#333,stroke-width:2px
+    style ServiceDB stroke-dasharray: 5 5
+    style QuoteDB stroke-dasharray: 5 5
+ 
+    Client["Client"] -- 1.1 Quote Request --> QuoteSystem(("1.Quote System"))
+    QuoteSystem -- 1.2 Quote Details --> Client
+    Client -- 2.1 Payment Info --> PaymentSystem(("2.Payment System"))
+    Client -- 3.1 Order Details --> OrderSystem(("3.Order System"))
+    PaymentSystem -- 2.2 Payment Confirmation --> OrderSystem
+    OrderSystem -- 3.2 Order Data --> TaskManagement(("4.Task Management System"))
+    TaskManagement -- 4.1 Task List --> TaskManager["5.Task Manager"]
+    TaskManager -- 5.1 Task Assignments --> TaskManagement
+    TaskManagement -- 6.1 Task Assignments --> Worker["6.Worker"]
+    TaskManagement -- 7.1 Task Assignments --> NotificationProcess(("7.Notification System"))
+    NotificationProcess -- 7.2 Notifications --> Worker
+    Worker -- 6.2 Task Updates --> TaskManagement
+    TaskManagement -- 4.2 Progress Report --> Client
+    TaskManagement <-- 8.1 Task info --> TaskDB["8.TaskDB"]
+ 
+    Client:::entity
+    OrderSystem:::process
+    QuoteSystem:::process
+    PaymentSystem:::process
+    TaskManagement:::process
+    NotificationProcess:::process
+    TaskManager:::entity
+    Worker:::entity
+    TaskDB:::datastore
+    classDef entity fill:#f9f,stroke:#333,stroke-width:2px
+    classDef process fill:#bbf,stroke:#333,stroke-width:2px,circle
+    classDef datastore fill:#fff,stroke:#333,stroke-width:2px
+    style TaskDB stroke-dasharray: 5 5
+ 
+    Guest[Guest] 
+        ServiceDB[(Service Database)] -. "1.Services list" .-> FreeServiceList((Free service list))
+    FreeServiceList -- "2.Free services" --> Guest
+
+    Guest -- "5.Selected service" --> QuoteGeneration(("1.2 Quote Generation"))
+    ServiceBackend -. "4.Log service usage" .-> UsageDB[(Usage Database)]
+    
+    Guest -- "2.Service Query" --> ServiceBackend(("1.3 Service Backend"))
+
+    ServiceDB -. "7.Service functionality" .-> ServiceBackend 
+    UsageDB -. "6.Retrieve usage data" .-> QuoteGeneration
+    QuoteGeneration -- "7.Generated quote" --> QuoteDB[(Quote Database)] 
+    ServiceBackend -- "3.Service Response" --> Guest
+    Guest:::entity
+    FreeServiceList:::process
+    QuoteGeneration:::process
+    ServiceBackend:::process 
+    ServiceDB:::datastore
+    UsageDB:::datastore
+    QuoteDB:::datastore
+
+    classDef entity fill:#f9f,stroke:#333,stroke-width:2px
+    classDef process fill:#bbf,stroke:#333,stroke-width:2px,circle
+    classDef datastore fill:#fff,stroke:#333,stroke-width:2px
+    
+    style ServiceDB stroke-dasharray: 5 5
+    style UsageDB stroke-dasharray: 5 5
+    style QuoteDB stroke-dasharray: 5 5
+
+ 
+now create the components 
+LoginForm
+RegistrationForm
+ForgetPasswordComponent
+FreeServiceList
+ServiceInquiryForm
+QuoteRequestForm
+CatalogBrowsingComponent
+ServiceFilteringComponent
+ServiceDetailsComponent
+QuoteCalculationComponent
+QuoteRequestForm
+PaymentDetailsComponent
+OrderDetailsComponent
+TaskListComponent
+TaskProgressComponent
+ServiceManagementComponent
+OrderProcessingComponent
+PaymentProcessingComponent
+TaskManagementComponent
+NotificationSystemComponent
+UserDatabaseComponent
+ServiceDatabaseComponent
+QuoteDatabaseComponent
+UsageDatabaseComponent
