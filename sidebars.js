@@ -66,12 +66,26 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "TaskManager Pages",
+          items: [ 
+            "pages/task-management-page", 
+          ],
+        },
+        {
+          type: "category",
+          label: "SuperAdmin Pages",
+          items: [
+            "pages/manage-users-page",   
+            "pages/manage-services-page",
+          ],
+        },
+        {
+          type: "category",
           label: "System Pages",
           items: [
-            "pages/manage-services-page",
+           
             "pages/payment-processing-page",
-            "pages/order-processing-page",
-            "pages/task-management-page",
+            "pages/order-processing-page", 
             "pages/send-notifications-page",
           ],
         },
