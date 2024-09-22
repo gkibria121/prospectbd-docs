@@ -1,16 +1,14 @@
 ---
-id: catalog_browsing
-title: Catalog Browsing
-description: This component allows users to browse available services.
+id: catalog_browsing  
+title: Catalog Browsing  
+description: This component allows users to browse available services.  
 ---
 
-## Fields
+# Note : we need more information about the services.
+ 
+Browse services
 
-| Field Name      | Type  | Description                     |
-|-----------------|-------|---------------------------------|
-| Search          | Text  | Search query for services       |
-| Service Filters | Enum  | Filters to refine search results|
-
-## Actions
+## Actions:
 
 - **Browse Catalog**: Displays the list of services based on the search and filters.
+ 

@@ -1,24 +1,19 @@
 ---
+
 id: task-progress-page
-title: Task Progress Page
-sidebar_label: Task Progress
+title: Task List  
+description: This component displays a list of tasks.  
 ---
 
-# Task Progress Page
+## Input:
 
-*Page Identifier:* `task-progress-page`
+- **TaskID**: Task Identifier  
+  - *Type*: Integer  
+- **Task Status**: Current Status of the Task  
+  - *Type*: Enum  
 
-*Title:* Task Progress
+## Actions:
 
-## Components
-- [**TaskProgressComponent**](/docs/components/task_progress.md): Displays progress updates for assigned tasks.
-
-import Layout from './layout.md';
-
-<Layout />
-
-
-
-## Links
-- [**MyTasksPage**](/docs/pages/my-tasks-page): Navigates to the My Tasks page.
-- [**OrderDetailsPage**](/docs/pages/order-details-page): Navigates to the Order Details page.
+- **View Tasks**: Displays the list of tasks.
+- **Worker View**: Allows workers to view and update their assigned tasks.
+- **Update Task**: Enables the worker to update the task status and add comments.
