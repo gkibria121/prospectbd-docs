@@ -14,7 +14,7 @@ sidebar_label: Usage Database
 - Description of the structure and purpose of the Usage Database.
 
 ## Components
-- [**UsageDatabaseComponent**](/docs/components): Manages records of system usage and analytics.
+- [**UsageDatabaseComponent**](/docs/components/user_database.md): Manages records of system usage and analytics.
 
 import Layout from './layout.md';
 
